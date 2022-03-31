@@ -1,0 +1,240 @@
+main{
+    width: 100%;
+    margin: auto;
+}
+
+section h1{
+    padding-top: 79px;
+    padding-left: 214px;
+    width: 488px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #FF4081;
+    line-height: 69px;
+    padding-right: 128px;
+}
+
+
+.inicio{
+    background: url('../styles/imagens/ilustra-banner.png') 75% 0 no-repeat;
+    height: 511px;
+    width: auto;
+    margin-bottom: 120px; 
+    
+      
+    
+}
+section p{
+    padding-top: 31px;
+    padding-bottom: 5px;
+    padding-left: 222px;
+    width: 544px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 31px;
+    color:#555555;
+
+    
+}
+
+.inicio a{
+    border: 2px solid #FF4081;
+    border-radius: 30px;
+    display:inline-flex;
+    padding: 11px 13px;
+    text-decoration: none;
+    margin: 0 218px 0px;
+    color: #FF4081;
+    box-sizing: border-box;
+    font-size: 27px;
+    text-align:right;
+    width: 252px;
+    
+    
+
+}
+
+.menu-opções {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+    height: 703px;
+    margin: 0 0px 60px 0px;
+    background: #F7F7F7;
+
+   
+
+}
+
+.menu-opções img {
+    width: 288px;
+    height: 270px;
+    display: block;
+    margin: 0 0 45px;
+    padding-left: 45px;
+    padding-top: 107px;
+}
+
+.menu-opções span {
+    display: block;
+    text-align:center;
+    font-size: 25px;
+    font-weight:700;
+    text-transform: lowercase;
+    margin: 0 0 24px;
+    color:#FF4081;
+    
+}
+.menu-opções p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.menu-opções a {
+    color: #ffffff;
+    background: #FF4081;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 90px 30px 90px;
+    padding: 10px 43px;
+    text-transform: lowercase;
+    text-decoration: none;
+    border-radius: 62px;
+    
+
+}
+
+.lista-depoimentos {
+    padding: 78px 0;
+    padding-left: 100px;
+    
+}
+
+.lista-depoimentos h2 {
+    color: #009688;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 78px;
+}
+
+.lista-depoimentos > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 100px;
+}
+
+.lista-depoimentos .depoimento {
+    display: flex;
+    margin-bottom: 86px;
+}
+
+.lista-depoimentos .depoimento img {
+    margin-right: 28px;
+}
+
+.lista-depoimentos .depoimento p::before,
+.lista-depoimentos .depoimento p::after {
+    content: '"';
+}
+
+.lista-depoimentos .depoimento p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #000000;
+    margin: 0 0 7px;
+    width: 410px;
+}
+
+.lista-depoimentos .depoimento small {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    color: #000000;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    width:530px;
+    height:43px;
+    color: #009688;
+    margin-bottom: 73px;
+    margin-left: 79px;
+    padding-top: 91px;
+    padding-left: 128px;
+    
+}
+
+.menu-blog{
+    background: #F7F7F7 ;
+    margin: 0;
+    padding-bottom: 50px;
+    
+    
+}
+    
+    
+.text-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 20px;
+    padding-left: 128px;
+    padding-right: 128px;
+    
+}
+
+.text-blog img{
+    width: 319px;
+    height: 193px;
+}
+
+.text-blog h5{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+.text-blog p{
+    width: 319px;
+    height: 110px;
+    margin:0;
+    padding:0px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+
+
+}
+.tag-blog{
+    display: block;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 11px 0px;
+    width: 289px;
+    margin: 110px auto 0;
+    text-align: center;
+    margin-bottom: 35px;
+    
+    
+}
+.tag-blog a{
+    text-decoration: none;
+    color: #FF4081;
+    
+}
