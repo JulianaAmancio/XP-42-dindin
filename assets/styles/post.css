@@ -50,6 +50,7 @@ picture img{
 
 .texto p{
     font-weight: 300;
+    width: 1032px;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
@@ -120,5 +121,43 @@ picture img{
     
 
 }
+
+@media only screen and (max-width: 1447px) {
+    .picture img {
+        width: 976px;
+    }
+}
+@media only screen and (max-width: 1308px) {
+    .picture img {
+        width: 695px;
+        height: 368px;
+    }
+        .conteudo h1 {
+            width: 507px;
+        }
+        
+
+}
+@media only screen and (max-width: 1024px) {
+    picture img {
+        width: 702px;
+        height: 421px;
+    }
+    .texto p {
+        width: 680px;
+    }
+    main .container {
+        width: 643px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main .container {
+        width: 378px;
+}
+
+
+
+    
 
 

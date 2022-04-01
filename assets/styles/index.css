@@ -238,3 +238,86 @@ h4{
     color: #FF4081;
     
 }
+
+@media only screen and (max-width: 1211px) {
+    .inicio{
+        background: none;
+    }
+    section h1{
+        text-align: center;
+        
+    }
+    section p{
+        text-align: center;
+        padding-left: 178px;
+    }
+    .inicio a{
+        text-align: center;
+        margin: 0 317px 0px;
+    }
+    .menu-opções img{
+        width: 0;
+       height: 0;
+       padding-top:15px;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+    .menu-blog h4{
+        width: 406px;
+    }
+    .lista-depoimentos .depoimento p {
+        width: 332px;
+    }
+    main{
+        margin: 0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:425px){
+    section h1{
+        text-align: center;
+        margin: 98px 0px 0px;;
+        padding: 0;
+        
+    }
+    section p{
+        text-align: left;
+        padding-left: 178px;
+        margin: 43px 0px 0px;
+        padding: 0px 90px 0px;
+    }
+    .inicio a{
+        text-align:left;
+        margin: 98px 0px 0px;
+    }
+    .lista-depoimentos .depoimento img {
+        margin-right: 0px;
+        width: 0;
+        height: 0;
+    }
+    .lista-depoimentos .depoimento p {
+        width: 276px;
+    }
+    .menu-blog h4{
+        margin: 0;
+        padding:0px 25px 95px;
+    }
+}
+    @media only screen and (max-width:375px){
+        .menu-opções a {
+            padding: 2px 23px;
+        }
+        section h1 {
+           text-align: left;
+            margin: 0;
+        }
+        section p {
+            text-align: left;
+            padding: 0px 23px 0px;
+        }
+    }

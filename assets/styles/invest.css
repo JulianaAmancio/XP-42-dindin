@@ -88,4 +88,17 @@ h3{
    
 }
 
-    
+@media only screen and (max-width: 1256px) {
+
+    .conteudo{
+        padding-left: 77px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .titulo{
+        background: none;
+    }
+    .texto{
+        padding-left: 100px;
+    }

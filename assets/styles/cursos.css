@@ -95,6 +95,49 @@ h3{
   
   
 } 
+@media only screen and (max-width: 1190px) {
+    .texto{
+        width:692px;
+        height: 324px;
+        padding-left:12px;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .texto{
+        padding: 0;
+        width: 595px;
+        height: 495px;
+        
+       
+    }
     
-    
+} 
+
+@media only screen and (max-width: 425px) {
+    .texto{
+    width: 319px;
+    height: 462px;
+    }
+    .titulo p{
+        width: 192px;
+    }
+    .imagem{
+       opacity: 0;
+       width: 0;
+       height: 0;
+        
+    }
+    .titulo{
+        padding: 0;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 413px) {
+    section{
+        padding: 5px 35px;
+    }
+
+}
    

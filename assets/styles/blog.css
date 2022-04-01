@@ -72,6 +72,48 @@ main{
 
 
 }
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .titulo{
+        background: none;
+    }
+}
+@media only screen and (max-width: 425px){
+    .text-blog {
+        padding: 0;
+        margin: 0;
+    }
       
-      
-      
+    .text-blog img {
+       width: 408px;
+       height: 320px   
+    }
+    .text-blog p {
+        width: 354px;
+    }
+    .titulo h1 {
+        color: #009688;
+        width: 367px;
+        padding-left: 53px;
+        padding-bottom: 17px;
+        margin:0;
+    }
+    .titulo p {
+        width: 311px;
+        padding-left: 31px;
+        margin: 0;
+        
+    }
+
+}
+@media only screen and (max-width: 375px){
+    .text-blog img {
+        width: 355px
+    }
+}
