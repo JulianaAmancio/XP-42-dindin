@@ -7,9 +7,9 @@ main{
       margin: 0;
       width: 100%;
       height: 405px;
-      background: url('../styles/imagens/ilustra-blog.png') no-repeat 706px 1px #ffffff;
+      background: url('../styles/imagens/ilustra-blog.png') no-repeat 75% 0 #ffffff;
       padding-bottom: 30px;
-      padding-top: 78px;
+      padding-top: 111px;
   }
 
   .titulo h1{
@@ -34,7 +34,10 @@ main{
     padding-bottom: 80px;
 
 }
-
+.container{
+    width: 1349px;
+    align-items: center;
+}
 
   .text-blog{
     padding-top: 103px;
@@ -73,18 +76,26 @@ main{
 
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1350px) {
     .container {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width:1080px){
     .titulo{
         background: none;
     }
+    .titulo h1 {
+        padding-left: 332px;
+        margin:0;
+    }
+    .titulo p {
+        padding-left: 332px;
+        margin: 0;
+    }
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 982px){
     .text-blog {
         padding: 0;
         margin: 0;
@@ -98,7 +109,24 @@ main{
         width: 354px;
     }
     .titulo h1 {
-        color: #009688;
+        width: 367px;
+        padding-left: 200px;
+        padding-bottom: 17px;
+        margin:0;
+    }
+    .titulo p {
+        width: 311px;
+        padding-left: 200px;
+        margin: 0;
+        
+    }
+
+}
+@media only screen and (max-width: 727px){
+    .text-blog img {
+        width: 355px
+    }
+    .titulo h1 {
         width: 367px;
         padding-left: 53px;
         padding-bottom: 17px;
@@ -106,14 +134,21 @@ main{
     }
     .titulo p {
         width: 311px;
-        padding-left: 31px;
+        padding-left: 53px;
         margin: 0;
         
     }
-
 }
-@media only screen and (max-width: 375px){
-    .text-blog img {
-        width: 355px
+@media only screen and (max-width: 419px){
+    .titulo h1 {
+        width: 287px;
+        padding-left: 3px;
+        padding-bottom: 45px;
+        margin: 0;
+    }
+    .titulo p {
+        width: 267px;
+        padding-left: 10px;
+        margin: 0;
     }
 }
