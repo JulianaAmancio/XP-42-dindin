@@ -62,6 +62,7 @@ main{
     line-height: 34px;
     color: #ff4081;
     padding-top: 20px;
+    width: 455px;
     
 
 }
@@ -83,6 +84,9 @@ main{
 }
 
 @media only screen and (max-width:1080px){
+    header{
+        margin-bottom: 0;
+    }
     .titulo{
         background: none;
     }
@@ -103,19 +107,20 @@ main{
       
     .text-blog img {
        width: 408px;
-       height: 320px   
+       height: 320px;
+       padding:21;   
     }
     .text-blog p {
         width: 354px;
     }
     .titulo h1 {
-        width: 367px;
+        width:  412px;
         padding-left: 200px;
         padding-bottom: 17px;
         margin:0;
     }
     .titulo p {
-        width: 311px;
+        width: 526px;
         padding-left: 200px;
         margin: 0;
         
@@ -127,28 +132,53 @@ main{
         width: 355px
     }
     .titulo h1 {
-        width: 367px;
-        padding-left: 53px;
+        width: 405px;
+        padding-left: 91px;
         padding-bottom: 17px;
         margin:0;
     }
     .titulo p {
-        width: 311px;
-        padding-left: 53px;
+        width: 270px;
+        padding-left: 125px;
         margin: 0;
         
     }
 }
-@media only screen and (max-width: 419px){
+@media only screen and (max-width: 502px){
     .titulo h1 {
         width: 287px;
-        padding-left: 3px;
+        padding-left: 84px;
         padding-bottom: 45px;
         margin: 0;
     }
     .titulo p {
-        width: 267px;
-        padding-left: 10px;
+        width: 290px;
+        padding-left: 95px;
         margin: 0;
     }
+    .text-blog h3{
+        width: 344px;
+    }
+
+    .text-blog img{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
 }
+@media only screen and (max-width: 381px){
+    .titulo h1 {
+        padding-left: 24px;
+    
+    }
+    .titulo p {
+        padding-left: 33px
+    
+    }
+    .text-blog h3 {
+        width: 296px;
+    }
+    .text-blog p {
+        width: 288px;
+    }
+}    
